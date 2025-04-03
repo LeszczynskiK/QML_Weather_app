@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/WeatherApp">/home/krzysiek89/Desktop/QT_aplikacje/QML_Weather_App/WeatherApp/build/Desktop_Qt_6_7_2-Debug/WeatherApp</file>
+
+  </qresource>
+</RCC>
