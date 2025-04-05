@@ -3,3 +3,4 @@
 --resource
 /home/krzysiek89/Desktop/QT_aplikacje/QML_Weather_App/WeatherApp/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/appWeatherApp_raw_qml_0.qrc
 /qt/qml/WeatherApp/Main.qml
+/qt/qml/WeatherApp/weathermain.qml

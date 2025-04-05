@@ -2,14 +2,27 @@ cmake_minimum_required(VERSION 3.16)
 
 project(WeatherApp VERSION 0.1 LANGUAGES CXX)
 
+
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_STANDARD 17)
 
 find_package(Qt6 6.5 REQUIRED COMPONENTS Quick)
 
 qt_standard_project_setup(REQUIRES 6.5)
 
-qt_add_executable(appWeatherApp
+#Sources
+set(SOURCES
     main.cpp
+    weathermain.cpp
+)
+
+# Heading files
+set(HEADERS
+    weathermain.h
+)
+
+qt_add_executable(appWeatherApp
+     ${SOURCES} ${HEADERS}
 )
 
 qt_add_qml_module(appWeatherApp
@@ -17,6 +30,7 @@ qt_add_qml_module(appWeatherApp
     VERSION 1.0
     QML_FILES
         Main.qml
+        weathermain.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

@@ -1,6 +1,7 @@
 <RCC>
   <qresource prefix="/qt/qml/WeatherApp/">
     <file alias="Main.qml">/home/krzysiek89/Desktop/QT_aplikacje/QML_Weather_App/WeatherApp/Main.qml</file>
+    <file alias="weathermain.qml">/home/krzysiek89/Desktop/QT_aplikacje/QML_Weather_App/WeatherApp/weathermain.qml</file>
   </qresource>
 </RCC>
 
