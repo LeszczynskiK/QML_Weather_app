@@ -36,7 +36,6 @@ ApplicationWindow {
                 contentItem: Text {
                     text: button1.text
                     font.pixelSize: 27  // Font size set to
-                    font.family: "Cantarell"
                     color: "#151818" //Text color
 
                     //put text on the middle of button
@@ -67,7 +66,6 @@ ApplicationWindow {
                 contentItem: Text {
                     text: button2.text
                     font.pixelSize: 27  // Font size set to
-                    font.family: "Brush Script MT"
                     color: "#151818" //Text color
 
                     //put text on the middle of button

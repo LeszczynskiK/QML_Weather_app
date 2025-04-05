@@ -4,7 +4,7 @@ import QtQuick.Controls 2.15
 Item {
     Image {
         //by url to file
-        source: "file:///home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/background1.png"
+        source: "file:///home/krzysiek89/Desktop/QT_aplikacje/QML_Weather_App/WeatherApp/backgroundWeather.png"
         anchors.fill: parent//fill parent(parent is ApplicationWindow(
         fillMode: Image.PreserveAspectCrop//keep aspect of size if cropped png
     }
@@ -27,8 +27,8 @@ Item {
             verticalAlignment: Text.AlignVCenter // Center text vertically
         }
         background: Rectangle {
-            color: "#95ede5" // Background color
-            opacity: 0.6 // 60% transparency
+            color: "#cceb33"    // Background color
+            opacity: 0.8        // 80% transparency
             border.width: 2 // 2px frame around button
             border.color: "#151818" // Frame colour
         }
