@@ -9,6 +9,7 @@ Features:
 - Retrieve weather forecasts from a connected database  
 - Display temperature, humidity, wind speed, and atmospheric pressure  
 - Animated background based on weather conditions (e.g., rain, sun, snow)  
+- Current forecast, last week and future week predictions
 - Ability to save favorite locations  
     
 Technologies:    
