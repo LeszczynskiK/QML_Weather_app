@@ -13,7 +13,7 @@ ApplicationWindow {
         initialItem: Item {
             Image {
                 //by url to file
-                source: "file:///home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/background.png"
+                source: "file:///home/krzysiek89/Desktop/QT_aplikacje/QML_Weather_App/WeatherApp/mainBackground.png"
                 anchors.fill: parent//fill parent(parent is ApplicationWindow(
                 fillMode: Image.PreserveAspectCrop//keep aspect of size if cropped png
             }
@@ -23,19 +23,20 @@ ApplicationWindow {
             Button {
                 id: button1
                 text: "Current weather"
-                x: 100    // X coordinate
-                y: 100    // Y coordinate
+                x: 25    // X coordinate
+                y: 25    // Y coordinate
                 width: 250 // Button width
-                height: 175 // Button height
+                height: 125 // Button height
                 onClicked: {
-                    console.log("Airport")
+                    console.log("Weather")
                     stackView.push("qrc:/qt/qml/WeatherApp/weathermain.qml") //Open page with this view
                 }
 
                 // Customize font and appearance
                 contentItem: Text {
                     text: button1.text
-                    font.pixelSize: 32  // Font size set to 32
+                    font.pixelSize: 27  // Font size set to
+                    font.family: "Cantarell"
                     color: "#151818" //Text color
 
                     //put text on the middle of button
@@ -43,8 +44,8 @@ ApplicationWindow {
                     verticalAlignment: Text.AlignVCenter
                 }
                 background: Rectangle {
-                    color: "#95ede5"    // Background color
-                    opacity: 0.6        // 60% transparency
+                    color: "#cceb33"    // Background color
+                    opacity: 0.8        // 80% transparency
                     border.width: 2 //2px frame around button
                     border.color: "#151818" //Frame colour
                 }
@@ -53,10 +54,10 @@ ApplicationWindow {
             Button {
                 id: button2
                 text: "Week prognose"
-                x: 100    // X coordinate
-                y: 300    // Y coordinate
+                x: 25    // X coordinate
+                y: 175    // Y coordinate
                 width: 250 // Button width
-                height: 175 // Button height
+                height: 125 // Button height
                 onClicked: {
                     console.log("Week prognose")
                     stackView.push("qrc:/qt/qml/WeatherApp/weathermain.qml") //Open page with this view
@@ -65,7 +66,8 @@ ApplicationWindow {
                 // Customize font and appearance
                 contentItem: Text {
                     text: button2.text
-                    font.pixelSize: 32  // Font size set to 32
+                    font.pixelSize: 27  // Font size set to
+                    font.family: "Brush Script MT"
                     color: "#151818" //Text color
 
                     //put text on the middle of button
@@ -73,8 +75,8 @@ ApplicationWindow {
                     verticalAlignment: Text.AlignVCenter
                 }
                 background: Rectangle {
-                    color: "#95ede5"    // Background color
-                    opacity: 0.6        // 60% transparency
+                    color: "#cceb33"    // Background color
+                    opacity: 0.8        // 80% transparency
                     border.width: 2 //2px frame around button
                     border.color: "#151818" //Frame colour
                 }
@@ -83,10 +85,10 @@ ApplicationWindow {
             Button {
                 id: button3
                 text: "History"
-                x: 100    // X coordinate
-                y: 500    // Y coordinate
+                x: 25    // X coordinate
+                y: 325    // Y coordinate
                 width: 250 // Button width
-                height: 175 // Button height
+                height: 125 // Button height
                 onClicked: {
                     console.log("History")
                     stackView.push("qrc:/qt/qml/WeatherApp/weathermain.qml") //Open page with this view
@@ -95,7 +97,7 @@ ApplicationWindow {
                 // Customize font and appearance
                 contentItem: Text {
                     text: button3.text
-                    font.pixelSize: 32  // Font size set to 32
+                    font.pixelSize: 27  // Font size set to 32
                     color: "#151818" //Text color
 
                     //put text on the middle of button
@@ -103,8 +105,8 @@ ApplicationWindow {
                     verticalAlignment: Text.AlignVCenter
                 }
                 background: Rectangle {
-                    color: "#95ede5"    // Background color
-                    opacity: 0.6        // 60% transparency
+                    color: "#cceb33"    // Background color
+                    opacity: 0.8        // 80% transparency
                     border.width: 2 //2px frame around button
                     border.color: "#151818" //Frame colour
                 }
